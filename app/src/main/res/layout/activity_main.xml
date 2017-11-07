@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="br.ucb.upcoming.MainActivity">
+    tools:context="br.ucb.upcoming.MainActivity"
+    android:id="@+id/recycle"
+    >
 
 
 
