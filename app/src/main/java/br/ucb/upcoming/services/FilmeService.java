@@ -61,7 +61,7 @@ public class FilmeService extends AsyncTask<String,Void,String> {
                 filme.setTituloOriginal(object.getString("original_title"));
                 filme.setSinopse(object.getString("overview"));
                 String dataString = object.getString("release_date");
-                DateFormat formatter = new SimpleDateFormat("yyyy-mm-dd");
+                DateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
                 filme.setDataLancamento((Date)formatter.parse(dataString));
                 filmeList.add(filme);
             }
